@@ -1,0 +1,34 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import './custom.scss';
+
+// /**********************************RESET+MAIN LAYOUT**************************************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: $main-font-weight;
+    
+    body{
+        margin-top: 45px;
+       
+        main, header{
+            max-width: 1240px;
+            margin: auto;
+     } 
+        @media (max-width: 1240px) {
+            margin:20px 20px 0px 20px
+        }
+
+        @media (max-width: 280px) {
+            margin:10px 10px 0px 10px;
+        }
+    }
+}
+
+
+

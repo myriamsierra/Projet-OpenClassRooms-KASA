@@ -1,0 +1,12 @@
+//--------------------------------------LAYOUT PAGE HOME-------------------------------------------
+.home__contenair{
+    margin: 50px auto 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap:43px;
+    
+    @media (max-width: 1240px) {
+        margin: 27px auto 27px auto;
+        gap:22px;
+    }
+}

@@ -1,0 +1,26 @@
+@import './../../../../Utils/custom.scss';
+
+.tags {
+    display: flex;
+    gap: 10px;
+    
+    &__text{
+        width: 115px;
+        height: 25px;
+        padding-top: 3px;
+        color:$second-color;
+        background-color: $main-color;
+        font-size: $tiny-font-size;
+        text-align: center;
+        border-radius: $small-border-radius;
+        line-height: 142.6%;
+
+        @media (max-width: 520px) {
+           font-size: 9px;
+           width: 84px;
+           height: 18px;
+           border-radius: 7px;
+        }  
+    }
+}
+

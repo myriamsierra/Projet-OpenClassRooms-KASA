@@ -1,0 +1,46 @@
+/* **************************LAYOUT PRODUCT PAGE***************************************** */
+.product__contenair{
+    margin:50px auto 50px auto;
+    display:flex;
+    flex-direction:column;
+    gap:24px;
+    
+    @media (max-width:750px) {
+        margin:27px auto 27px auto;
+        gap:20px; 
+    }
+    
+    .product__contenair--collapse{
+        width:100%;
+        display:flex;
+        justify-content:space-between; 
+        
+        @media (max-width:750px) {
+            flex-direction:column;
+            gap:20px;
+            align-items:center;
+            margin-top:-4px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

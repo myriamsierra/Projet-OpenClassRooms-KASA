@@ -1,0 +1,29 @@
+
+@import './../../../Utils/custom.scss';
+
+.cards__grid{
+    border-radius: $big-border-radius;
+    background-color: $grey-background;
+    padding:56px 50px 43px 50px ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap:60px;
+    row-gap: 50px;
+    
+    @media (max-width: 1240px) {
+        grid-template-columns: repeat(2, 1fr);   
+    }
+    
+    @media (max-width: 800px) {
+        grid-template-columns: 1fr;   
+    }
+    
+    @media (max-width: 500px) {
+       padding: 0;
+    }
+    
+    @media (max-width: 375px) {
+        gap:20px;
+        background-color: white;
+     }
+}

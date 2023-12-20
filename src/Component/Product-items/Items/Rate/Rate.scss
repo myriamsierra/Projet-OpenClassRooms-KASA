@@ -1,0 +1,24 @@
+
+@import './../../../../Utils/custom.scss';
+
+.rate{
+    width: 196px;
+    height: 36px;
+    
+    @media (max-width: 520px) {
+        width: 98px;
+        height: 18px;
+     }
+  
+}
+
+.rate img{
+    @media (max-width: 520px) {
+        width: 18px;
+        height: 18px;    
+    }  
+    @media (max-width: 250px) {
+        width: 10px;
+        height: 10px;    
+    }  
+}

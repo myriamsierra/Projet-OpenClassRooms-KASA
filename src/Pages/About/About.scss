@@ -1,0 +1,27 @@
+//--------------------------------------LAYOUT PAGE ABOUT-------------------------------------------
+.about__contenair{
+    margin:38px auto 38px auto;
+    display:flex;
+    flex-direction: column;
+    gap:38px;
+   
+    @media (max-width: 520px) {
+        margin:19px auto 19px auto;
+        gap:19px;
+    }
+    
+    &__collapse{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap:30px;
+        
+        @media (max-width: 520px) {
+            gap:20px;
+        }
+    }
+}
+    
+
+
+

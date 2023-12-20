@@ -1,0 +1,67 @@
+@import './../../Utils/custom.scss';
+
+.error{
+   margin:139px auto 139px auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 139px;
+   
+   @media (max-width: 520px) {
+        margin: 113px auto 113px auto;
+        gap:113px;
+    }
+
+    &__logo{
+        width: 597px;
+        height: 263px; 
+
+        @media (max-width: 650px) {
+            width: 418px;
+            height: 184px;
+        }
+        
+        @media (max-width: 520px) {
+            width: 198px;
+            height: 99px;
+        }
+
+        @media (max-width: 240px) {
+            width: 138px;
+            height: 69px;
+        }
+    }
+    
+    &__text{
+        font-size: $big-font-size;
+        color: $main-color;
+        line-height: 142.6%;
+        
+        @media (max-width: 920px) {
+            width: 260px;
+            font-size: $medium-font-size; 
+            text-align: center;
+        }
+        
+        @media (max-width: 520px) {
+            font-size: $small-font-size;
+         }
+
+         @media (max-width: 240px) {
+            width: 150px;
+            font-size: $tiny-font-size;
+         }
+    }
+    
+    &__link{
+        text-decoration: underline;
+        font-size: $small-font-size; 
+        color:$main-color;
+        
+        @media (max-width: 520px) {
+           font-size: $tiny-font-size;
+           text-align: center;
+        }
+    }
+}
+

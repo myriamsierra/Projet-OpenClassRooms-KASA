@@ -1,0 +1,42 @@
+
+@import './../../../../Utils//custom.scss';
+
+.host{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    
+    &__name{
+        font-size: $small-font-size;
+        text-align: right;
+        width: 93px;
+        height: 52px;
+        color:$main-color;
+        line-height: 142.6%;
+        
+        @media (max-width: 380px) {
+            font-size: 12px; 
+            height: 33px;
+            width: 73px;
+         }
+    }
+    
+    &__img{
+        width: 64px;
+        height: 64px;
+        object-fit: cover;
+        border-radius: 50%;
+        overflow: hidden;
+        
+        @media (max-width: 380px) {
+            width: 32px;
+            height: 32px;
+         }
+
+         @media (max-width: 350px) {
+            width: 28px;
+            height: 28px;
+         }
+    }
+}
+

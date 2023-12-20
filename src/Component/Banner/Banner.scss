@@ -1,0 +1,53 @@
+@import './../../Utils/custom.scss';
+
+.banner{
+    max-width: 1240px;
+    height: 223px;
+    overflow: hidden;
+    border-radius: $big-border-radius;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    @media (max-width: 520px) {
+        height: 111px;
+        border-radius: $small-border-radius;
+    }
+    
+    &__overlay{
+        width: 100%;
+        height: 100%;
+        background-color:$overlay_background;
+        position: absolute;
+    }     
+    
+    &__title{
+        position: absolute;
+        font-size: $biger-font-size;
+        color:$second-color;
+        
+        @media (max-width: 780px) {
+            margin-left: 20px;
+        }
+        
+        @media (max-width: 520px) {
+            margin-left: 16px;
+            font-size: $medium-font-size;
+        }
+        
+        @media (max-width: 250px) {
+            margin-left: auto;
+            font-size: $small-font-size
+        }
+    }
+}   
+
+        
+
+ 
+
+
+
+        
+    
