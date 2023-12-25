@@ -29,7 +29,7 @@ const About = () => {
   return (
     <main className="about__contenair">
       <section>
-        <Banner imgBanner={AboutBanner}/>
+        <Banner imgBanner={AboutBanner} showTitleBanner={false}/>
       </section>
       <section className="about__contenair__collapse">
         {collapseText.map((item,index) => (

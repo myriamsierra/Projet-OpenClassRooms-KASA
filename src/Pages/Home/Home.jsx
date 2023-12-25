@@ -8,12 +8,12 @@ import CardsGrid from'../../Component/Cards-contenairs/Cards-grid/Cards-Grid.jsx
 //-->Path
 const Home = () => {
     
-    const titleForBanner = "Chez vous, partout et ailleurs";
+   
    
     return (
         <main className='home__contenair'>
             <section className='home__section--banner'>
-                <Banner imgBanner={HomeBanner} titleBanner={titleForBanner} />
+                <Banner imgBanner={HomeBanner} showTitleBanner={true}/>
             </section>
             <section className='home__section--cardsGrid'>
                 <CardsGrid />
